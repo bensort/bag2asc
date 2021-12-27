@@ -156,12 +156,3 @@ if __name__ == '__main__':
         bagfile = opt_files[files]
         RosAscWriter.write_output_asc(bagfile)
     print("完成！")
-
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
-    , is_offline(true)
-{   
-    ui->setupUi(this);
-    setWindowTitle("Fusion Tool Demo");
-    Ini
